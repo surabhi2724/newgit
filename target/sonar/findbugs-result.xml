@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.1.0-RC6" sequence="0" timestamp="1521191549853" analysisTimestamp="1521191595591" release="">
+  <Project>
+    <Jar>C:\Users\Training\Desktop\sonar1\Project2\target\classes\com\example\lambda\A01OldStyleFor.class</Jar>
+    <Jar>C:\Users\Training\Desktop\sonar1\Project2\target\classes\com\example\lambda\A02ForEach.class</Jar>
+    <Jar>C:\Users\Training\Desktop\sonar1\Project2\target\classes\com\example\lambda\A03IterationTest.class</Jar>
+    <Jar>C:\Users\Training\Desktop\sonar1\Project2\target\classes\com\example\lambda\A03aMethodReference.class</Jar>
+    <Jar>C:\Users\Training\Desktop\sonar1\Project2\target\classes\com\example\lambda\A04IterationTest.class</Jar>
+    <Jar>C:\Users\Training\Desktop\sonar1\Project2\target\classes\com\example\lambda\A05OldStyleSumLoop.class</Jar>
+    <Jar>C:\Users\Training\Desktop\sonar1\Project2\target\classes\com\example\lambda\Buyer.class</Jar>
+    <Jar>C:\Users\Training\Desktop\sonar1\Project2\target\classes\com\example\lambda\BuyerClass.class</Jar>
+    <Jar>C:\Users\Training\Desktop\sonar1\Project2\target\classes\com\example\lambda\Main.class</Jar>
+    <Jar>C:\Users\Training\Desktop\sonar1\Project2\target\classes\com\example\lambda\SalesTxn.class</Jar>
+    <Jar>C:\Users\Training\Desktop\sonar1\Project2\target\classes\com\example\lambda\SalesTxn$Builder.class</Jar>
+    <Jar>C:\Users\Training\Desktop\sonar1\Project2\target\classes\com\example\lambda\State.class</Jar>
+    <Jar>C:\Users\Training\Desktop\sonar1\Project2\target\classes\com\example\lambda\TaxRate.class</Jar>
+    <Jar>C:\Users\Training\Desktop\sonar1\Project2\target\classes\com\example\lambda\SalesTxn$1.class</Jar>
+    <Jar>C:\Users\Training\Desktop\sonar1\Project2\target\classes\com\example\lambda\TaxRate$1.class</Jar>
+    <AuxClasspathEntry>C:\Users\Training\Desktop\sonar1\Project2\target\classes</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Training\Desktop\sonar1\Project2\target\sonar\findbugs\annotations.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Training\Desktop\sonar1\Project2\target\sonar\findbugs\jsr305.jar</AuxClasspathEntry>
+    <WrkDir>C:\Users\Training\Desktop\sonar1\Project2\target\sonar</WrkDir>
+  </Project>
+  <Errors errors="0" missingClasses="2">
+    <MissingClass>accept</MissingClass>
+    <MissingClass>test</MissingClass>
+  </Errors>
+  <FindBugsSummary timestamp="Fri, 16 Mar 2018 14:42:29 +0530" total_classes="15" referenced_classes="51" total_bugs="0" total_size="514" num_packages="1" java_version="1.8.0_65" vm_version="25.65-b01" cpu_seconds="17.12" clock_seconds="6.72" peak_mbytes="367.46" alloc_mbytes="3621.50" gc_seconds="0.07">
+    <FileStats path="com/example/lambda/A01OldStyleFor.java" bugCount="0" size="10"/>
+    <FileStats path="com/example/lambda/A02ForEach.java" bugCount="0" size="14"/>
+    <FileStats path="com/example/lambda/A03IterationTest.java" bugCount="0" size="11"/>
+    <FileStats path="com/example/lambda/A03aMethodReference.java" bugCount="0" size="16"/>
+    <FileStats path="com/example/lambda/A04IterationTest.java" bugCount="0" size="19"/>
+    <FileStats path="com/example/lambda/A05OldStyleSumLoop.java" bugCount="0" size="14"/>
+    <FileStats path="com/example/lambda/Buyer.java" bugCount="0" size="26"/>
+    <FileStats path="com/example/lambda/BuyerClass.java" bugCount="0" size="21"/>
+    <FileStats path="com/example/lambda/Main.java" bugCount="0" size="5"/>
+    <FileStats path="com/example/lambda/SalesTxn.java" bugCount="0" size="329"/>
+    <FileStats path="com/example/lambda/State.java" bugCount="0" size="19"/>
+    <FileStats path="com/example/lambda/TaxRate.java" bugCount="0" size="30"/>
+    <PackageStats package="com.example.lambda" total_bugs="0" total_types="15" total_size="514">
+      <ClassStats class="com.example.lambda.A01OldStyleFor" sourceFile="A01OldStyleFor.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="com.example.lambda.A02ForEach" sourceFile="A02ForEach.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="com.example.lambda.A03IterationTest" sourceFile="A03IterationTest.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="com.example.lambda.A03aMethodReference" sourceFile="A03aMethodReference.java" interface="false" size="16" bugs="0"/>
+      <ClassStats class="com.example.lambda.A04IterationTest" sourceFile="A04IterationTest.java" interface="false" size="19" bugs="0"/>
+      <ClassStats class="com.example.lambda.A05OldStyleSumLoop" sourceFile="A05OldStyleSumLoop.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="com.example.lambda.Buyer" sourceFile="Buyer.java" interface="false" size="26" bugs="0"/>
+      <ClassStats class="com.example.lambda.BuyerClass" sourceFile="BuyerClass.java" interface="false" size="21" bugs="0"/>
+      <ClassStats class="com.example.lambda.Main" sourceFile="Main.java" interface="false" size="5" bugs="0"/>
+      <ClassStats class="com.example.lambda.SalesTxn" sourceFile="SalesTxn.java" interface="false" size="259" bugs="0"/>
+      <ClassStats class="com.example.lambda.SalesTxn$1" sourceFile="SalesTxn.java" interface="false" size="1" bugs="0"/>
+      <ClassStats class="com.example.lambda.SalesTxn$Builder" sourceFile="SalesTxn.java" interface="false" size="69" bugs="0"/>
+      <ClassStats class="com.example.lambda.State" sourceFile="State.java" interface="false" size="19" bugs="0"/>
+      <ClassStats class="com.example.lambda.TaxRate" sourceFile="TaxRate.java" interface="false" size="26" bugs="0"/>
+      <ClassStats class="com.example.lambda.TaxRate$1" sourceFile="TaxRate.java" interface="false" size="4" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="699" invocations="484" avgMicrosecondsPerInvocation="1444" maxMicrosecondsPerInvocation="80652" standardDeviationMicrosecondsPerInvocation="5123"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="610" invocations="488" avgMicrosecondsPerInvocation="1251" maxMicrosecondsPerInvocation="23720" standardDeviationMicrosecondsPerInvocation="1827"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.impl.ZipCodeBaseFactory" totalMilliseconds="463" invocations="20" avgMicrosecondsPerInvocation="23162" maxMicrosecondsPerInvocation="392169" standardDeviationMicrosecondsPerInvocation="85807"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="248" invocations="204" avgMicrosecondsPerInvocation="1216" maxMicrosecondsPerInvocation="66846" standardDeviationMicrosecondsPerInvocation="5630"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="203" invocations="51" avgMicrosecondsPerInvocation="3985" maxMicrosecondsPerInvocation="32475" standardDeviationMicrosecondsPerInvocation="6928"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="171" invocations="51" avgMicrosecondsPerInvocation="3364" maxMicrosecondsPerInvocation="42323" standardDeviationMicrosecondsPerInvocation="6935"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="114" invocations="94" avgMicrosecondsPerInvocation="1216" maxMicrosecondsPerInvocation="29070" standardDeviationMicrosecondsPerInvocation="3863"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="105" invocations="94" avgMicrosecondsPerInvocation="1126" maxMicrosecondsPerInvocation="22388" standardDeviationMicrosecondsPerInvocation="3316"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="104" invocations="94" avgMicrosecondsPerInvocation="1108" maxMicrosecondsPerInvocation="23526" standardDeviationMicrosecondsPerInvocation="3068"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="100" invocations="94" avgMicrosecondsPerInvocation="1065" maxMicrosecondsPerInvocation="29675" standardDeviationMicrosecondsPerInvocation="3366"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="97" invocations="94" avgMicrosecondsPerInvocation="1032" maxMicrosecondsPerInvocation="17888" standardDeviationMicrosecondsPerInvocation="2908"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="87" invocations="107" avgMicrosecondsPerInvocation="821" maxMicrosecondsPerInvocation="33966" standardDeviationMicrosecondsPerInvocation="3501"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="86" invocations="94" avgMicrosecondsPerInvocation="920" maxMicrosecondsPerInvocation="58577" standardDeviationMicrosecondsPerInvocation="6038"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="85" invocations="446" avgMicrosecondsPerInvocation="192" maxMicrosecondsPerInvocation="13226" standardDeviationMicrosecondsPerInvocation="754"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="85" invocations="51" avgMicrosecondsPerInvocation="1673" maxMicrosecondsPerInvocation="40800" standardDeviationMicrosecondsPerInvocation="5721"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.taintanalysis.TaintDataflowEngine" totalMilliseconds="83" invocations="94" avgMicrosecondsPerInvocation="883" maxMicrosecondsPerInvocation="19729" standardDeviationMicrosecondsPerInvocation="2406"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindOpenStream" totalMilliseconds="79" invocations="15" avgMicrosecondsPerInvocation="5273" maxMicrosecondsPerInvocation="72682" standardDeviationMicrosecondsPerInvocation="18025"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="78" invocations="94" avgMicrosecondsPerInvocation="830" maxMicrosecondsPerInvocation="18112" standardDeviationMicrosecondsPerInvocation="2362"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine" totalMilliseconds="72" invocations="460" avgMicrosecondsPerInvocation="156" maxMicrosecondsPerInvocation="61756" standardDeviationMicrosecondsPerInvocation="2880"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="65" invocations="51" avgMicrosecondsPerInvocation="1277" maxMicrosecondsPerInvocation="13642" standardDeviationMicrosecondsPerInvocation="2755"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="61" invocations="51" avgMicrosecondsPerInvocation="1209" maxMicrosecondsPerInvocation="14998" standardDeviationMicrosecondsPerInvocation="2761"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.endpoint.ServletEndpointDetector" totalMilliseconds="59" invocations="15" avgMicrosecondsPerInvocation="3979" maxMicrosecondsPerInvocation="39604" standardDeviationMicrosecondsPerInvocation="10350"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="56" invocations="51" avgMicrosecondsPerInvocation="1104" maxMicrosecondsPerInvocation="30459" standardDeviationMicrosecondsPerInvocation="4330"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.ldap.LdapInjectionDetector" totalMilliseconds="55" invocations="15" avgMicrosecondsPerInvocation="3720" maxMicrosecondsPerInvocation="48552" standardDeviationMicrosecondsPerInvocation="12005"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>
